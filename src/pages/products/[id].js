@@ -3,6 +3,8 @@ import "tailwindcss/tailwind.css";
 import { createClient } from "@vercel/postgres";
 import { useState } from "react";
 import Head from "next/head";
+import { verify } from "jsonwebtoken";
+import { parse } from "cookie";
 
 export async function getServerSideProps(context) {
   //CHECK
