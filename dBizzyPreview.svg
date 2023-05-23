@@ -1,0 +1,88 @@
+<svg width="659" height="426" viewBox="0 0 494.25 319.5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="translate(122.63925231584918,179.72890891652966) scale(0.5946035575013608)">
+<title>G</title>
+<polygon fill="transparent" stroke="transparent" points="-4,4 -4,-184 528,-184 528,4 -4,4"></polygon>
+<!-- products -->
+<g id="node1" class="node">
+<title>products</title>
+<polygon fill="#232d95" stroke="transparent" points="318.5,-54 318.5,-72 495.5,-72 495.5,-54 318.5,-54"></polygon>
+<polygon fill="none" stroke="white" points="318.5,-54 318.5,-72 495.5,-72 495.5,-54 318.5,-54"></polygon>
+<text text-anchor="start" x="321.5" y="-61" font-family="opensans" font-weight="bold" font-size="10.00" fill="white">products</text>
+<polygon fill="#404040" stroke="transparent" points="318.5,-36 318.5,-54 495.5,-54 495.5,-36 318.5,-36"></polygon>
+<polygon fill="none" stroke="white" points="318.5,-36 318.5,-54 495.5,-54 495.5,-36 318.5,-36"></polygon>
+<text text-anchor="start" x="321.5" y="-43" font-family="opensans" font-size="10.00" fill="#e2c044">PK </text>
+<text text-anchor="start" x="336.78" y="-43" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="343.78" y="-43" font-family="opensans" font-size="10.00" fill="white"> id INT IDENTITY(1, 1</text>
+<polygon fill="#404040" stroke="transparent" points="318.5,-18 318.5,-36 495.5,-36 495.5,-18 318.5,-18"></polygon>
+<polygon fill="none" stroke="white" points="318.5,-18 318.5,-36 495.5,-36 495.5,-18 318.5,-18"></polygon>
+<text text-anchor="start" x="321.05" y="-24" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;name VARCHAR(255) NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="318.5,0 318.5,-18 495.5,-18 495.5,0 318.5,0"></polygon>
+<polygon fill="none" stroke="white" points="318.5,0 318.5,-18 495.5,-18 495.5,0 318.5,0"></polygon>
+<text text-anchor="start" x="321.06" y="-6" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;price DECIMAL(10, 2) NOT NULL</text>
+</g>
+<!-- users -->
+<g id="node2" class="node" style="opacity: 1;">
+<title>users</title>
+<polygon fill="#232d95" stroke="transparent" points="289.5,-162 289.5,-180 524.5,-180 524.5,-162 289.5,-162"></polygon>
+<polygon fill="none" stroke="white" points="289.5,-162 289.5,-180 524.5,-180 524.5,-162 289.5,-162"></polygon>
+<text text-anchor="start" x="292.5" y="-169" font-family="opensans" font-weight="bold" font-size="10.00" fill="white">users</text>
+<polygon fill="#404040" stroke="transparent" points="289.5,-144 289.5,-162 524.5,-162 524.5,-144 289.5,-144"></polygon>
+<polygon fill="none" stroke="white" points="289.5,-144 289.5,-162 524.5,-162 524.5,-144 289.5,-144"></polygon>
+<text text-anchor="start" x="292.5" y="-151" font-family="opensans" font-size="10.00" fill="#e2c044">PK </text>
+<text text-anchor="start" x="307.78" y="-151" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="314.78" y="-151" font-family="opensans" font-size="10.00" fill="white"> id INT IDENTITY(1, 1</text>
+<polygon fill="#404040" stroke="transparent" points="289.5,-126 289.5,-144 524.5,-144 524.5,-126 289.5,-126"></polygon>
+<polygon fill="none" stroke="white" points="289.5,-126 289.5,-144 524.5,-144 524.5,-126 289.5,-126"></polygon>
+<text text-anchor="start" x="292.31" y="-132" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;username VARCHAR(255) UNIQUE NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="289.5,-108 289.5,-126 524.5,-126 524.5,-108 289.5,-108"></polygon>
+<polygon fill="none" stroke="white" points="289.5,-108 289.5,-126 524.5,-126 524.5,-108 289.5,-108"></polygon>
+<text text-anchor="start" x="292.5" y="-114" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;password VARCHAR(255) NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="289.5,-90 289.5,-108 524.5,-108 524.5,-90 289.5,-90"></polygon>
+<polygon fill="none" stroke="white" points="289.5,-90 289.5,-108 524.5,-108 524.5,-90 289.5,-90"></polygon>
+<text text-anchor="start" x="292.5" y="-96" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;role VARCHAR(50) NOT NULL</text>
+</g>
+<!-- transactions -->
+<g id="node3" class="node">
+<title>transactions</title>
+<polygon fill="#232d95" stroke="transparent" points="0.5,-135 0.5,-153 253.5,-153 253.5,-135 0.5,-135"></polygon>
+<polygon fill="none" stroke="white" points="0.5,-135 0.5,-153 253.5,-153 253.5,-135 0.5,-135"></polygon>
+<text text-anchor="start" x="3.5" y="-142" font-family="opensans" font-weight="bold" font-size="10.00" fill="white">transactions</text>
+<polygon fill="#404040" stroke="transparent" points="0.5,-117 0.5,-135 253.5,-135 253.5,-117 0.5,-117"></polygon>
+<polygon fill="none" stroke="white" points="0.5,-117 0.5,-135 253.5,-135 253.5,-117 0.5,-117"></polygon>
+<text text-anchor="start" x="3.5" y="-124" font-family="opensans" font-size="10.00" fill="#e2c044">PK </text>
+<text text-anchor="start" x="18.78" y="-124" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="25.78" y="-124" font-family="opensans" font-size="10.00" fill="white"> id INT IDENTITY(1, 1</text>
+<polygon fill="#404040" stroke="transparent" points="0.5,-99 0.5,-117 253.5,-117 253.5,-99 0.5,-99"></polygon>
+<polygon fill="none" stroke="white" points="0.5,-99 0.5,-117 253.5,-117 253.5,-99 0.5,-99"></polygon>
+<text text-anchor="start" x="3.5" y="-106" font-family="opensans" font-size="10.00" fill="#e2c044">FK </text>
+<text text-anchor="start" x="18.78" y="-106" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="25.78" y="-106" font-family="opensans" font-size="10.00" fill="white"> user_id INT</text>
+<polygon fill="#404040" stroke="transparent" points="0.5,-81 0.5,-99 253.5,-99 253.5,-81 0.5,-81"></polygon>
+<polygon fill="none" stroke="white" points="0.5,-81 0.5,-99 253.5,-99 253.5,-81 0.5,-81"></polygon>
+<text text-anchor="start" x="3.5" y="-88" font-family="opensans" font-size="10.00" fill="#e2c044">FK </text>
+<text text-anchor="start" x="18.78" y="-88" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="25.78" y="-88" font-family="opensans" font-size="10.00" fill="white"> product_id INT</text>
+<polygon fill="#404040" stroke="transparent" points="0.5,-63 0.5,-81 253.5,-81 253.5,-63 0.5,-63"></polygon>
+<polygon fill="none" stroke="white" points="0.5,-63 0.5,-81 253.5,-81 253.5,-63 0.5,-63"></polygon>
+<text text-anchor="start" x="3.5" y="-69" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;quantity INT NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="0.5,-45 0.5,-63 253.5,-63 253.5,-45 0.5,-45"></polygon>
+<polygon fill="none" stroke="white" points="0.5,-45 0.5,-63 253.5,-63 253.5,-45 0.5,-45"></polygon>
+<text text-anchor="start" x="3.5" y="-51" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;total_price DECIMAL(10, 2) NOT NULL</text>
+<polygon fill="#404040" stroke="transparent" points="0.5,-27 0.5,-45 253.5,-45 253.5,-27 0.5,-27"></polygon>
+<polygon fill="none" stroke="white" points="0.5,-27 0.5,-45 253.5,-45 253.5,-27 0.5,-27"></polygon>
+<text text-anchor="start" x="3.29" y="-33" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;transaction_date DATETIME DEFAULT GETDATE()</text>
+</g>
+<!-- transactions&#45;&gt;products -->
+<g id="edge2" class="edge">
+<title>transactions:product_id-&gt;products:id</title>
+<path fill="none" stroke="#5ea54a" d="M253,-90C284.13,-90 283.25,-54.31 307.37,-46.5"></path>
+<polygon fill="#5ea54a" stroke="#5ea54a" points="308.12,-49.93 317.5,-45 307.1,-43 308.12,-49.93"></polygon>
+</g>
+<!-- transactions&#45;&gt;users -->
+<g id="edge1" class="edge" style="opacity: 1;">
+<title>transactions:user_id-&gt;users:id</title>
+<path fill="none" stroke="#5ea54a" d="M253,-108C274.41,-108 267.28,-139.45 279.33,-149.76"></path>
+<polygon fill="#5ea54a" stroke="#5ea54a" points="278.41,-153.15 289,-153 280.63,-146.51 278.41,-153.15"></polygon>
+</g>
+</g>
+</svg>
