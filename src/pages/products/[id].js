@@ -5,6 +5,32 @@ import { useState } from "react";
 import Head from "next/head";
 
 export async function getServerSideProps(context) {
+  //CHECK
+  const cookies = parse(context.req.headers.cookie || "");
+  const token = cookies["auth"];
+
+  if (!token) {
+    return {
+      redirect: {
+        destination: "/login",
+        permanent: false,
+      },
+    };
+  }
+
+  let decoded;
+  try {
+    decoded = verify(token, "123456");
+  } catch (err) {
+    return {
+      redirect: {
+        destination: "/login",
+        permanent: false,
+      },
+    };
+  }
+
+  
   const client = createClient();
   await client.connect();
 
